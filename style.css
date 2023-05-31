@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    background: rgb(199, 194, 194);
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verticalButtons
+{
+    display: flex;
+    flex-direction: column;
+}
+
+button
+{
+    border: none;
+    border-radius: 5px;
+    padding:5px 5px 7px;
+    margin: 2px;
+    cursor: pointer;
+
+}
+button:hover
+{
+    background: blueviolet;
+}
+
+#carCanvas
+{
+    background: rgb(80, 79, 79);
+}
+#networkCanvas
+{
+    background: rgb(0, 0, 0);
+}
